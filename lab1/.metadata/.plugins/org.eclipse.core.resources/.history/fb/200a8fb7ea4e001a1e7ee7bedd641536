@@ -41,20 +41,20 @@ WhiteSpace = [ ] | \t | \f | \n | \r
 %%
 /* put in your rules here.    */
 //keywords
-"boolean"	{ return token(BOOLEAN); }
-"break"		{ return token(BREAK);}
-"else"		{ return token(ELSE);}
-"false"		{ return token(FALSE);}
-"if"		{ return token(IF);}
-"import"	{ return token(IMPORT);}
-"int"		{ return token(INT);}
-"module" 	{ return token(MODULE);}
-"public" 	{ return token(PUBLIC);}
-"return" 	{ return token(RETURN);}
-"true" 		{ return token(TRUE);}
-"type" 		{ return token(TYPE);}
-"void" 		{ return token(VOID);}
-"while" 	{ return token(WHILE);}
+"boolean"
+"break"
+"else"
+"false"
+"if"
+"import"
+"int"
+"module"
+"public"
+"return"
+"true"
+"type"
+"void"
+"while"
 
 //punctuation symbols
 ","		{ return token(COMMA); }
@@ -83,7 +83,7 @@ WhiteSpace = [ ] | \t | \f | \n | \r
 [a-zA-Z]([a-zA-Z]|[0-9]|"_")* 	{ return token(ID, yytext()); }
 
 //literals
-[0-9]+	{ return token(INT_LITERAL); }
+[0-9]+	{ return token(INT_LITERAL, yytext()); }
 \"[^\"]*\"	{ return token(STRING_LITERAL, yytext().substring(1, yytext().length() - 1)); }
 
 {WhiteSpace}* { }

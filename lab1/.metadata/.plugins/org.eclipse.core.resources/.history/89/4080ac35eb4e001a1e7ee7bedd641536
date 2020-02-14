@@ -1,4 +1,5 @@
 /* You do not need to change anything up here. */
+
 package lexer;
 
 import frontend.Token;
@@ -16,7 +17,8 @@ import static frontend.Token.Type.*;
 %column
 
 %{
-	/* These two methods are for the convenience of rules to create token objects.
+	/* user code: */
+	/* These two methods are for the convenience of rules to create toke objects.
 	* If you do not want to use them, delete them
 	* otherwise add the code in 
 	*/
@@ -31,16 +33,19 @@ import static frontend.Token.Type.*;
 	 *       but they should not be part of the lexeme. 
 	*/
 	private Token token(Token.Type type, String text) {
-		return new Token(type, yyline, yycolumn, text);	
+		return new Token(type, yyline, yycolumn, text);
 	}
 %}
 
 /* This definition may come in handy. If you wish, you can add more definitions here. */
 WhiteSpace = [ ] | \t | \f | \n | \r
+Alpha = [a-zA-Z]
+Digit = [0-9]
 
 %%
 /* put in your rules here.    */
-//keywords
+
+// Keywords
 "boolean"	{ return token(BOOLEAN); }
 "break"		{ return token(BREAK);}
 "else"		{ return token(ELSE);}
@@ -56,17 +61,17 @@ WhiteSpace = [ ] | \t | \f | \n | \r
 "void" 		{ return token(VOID);}
 "while" 	{ return token(WHILE);}
 
-//punctuation symbols
+// Punctuation Symbols
 ","		{ return token(COMMA); }
 "["		{ return token(LBRACKET); }
 "{"		{ return token(LCURLY); }
 "("		{ return token(LPAREN); }
-"]" 	{ return token(RBRACKET); }
+"]"		{ return token(RBRACKET); }
 "}"		{ return token(RCURLY); }
-")" 	{ return token(RPAREN); }
+")"		{ return token(RPAREN); }
 ";"		{ return token(SEMICOLON); }
 
-//operators
+// Operators
 "/"		{ return token(DIV); }
 "=="	{ return token(EQEQ); }
 "="		{ return token(EQL); }
@@ -79,14 +84,21 @@ WhiteSpace = [ ] | \t | \f | \n | \r
 "+"		{ return token(PLUS); }
 "*"		{ return token(TIMES); }
 
-//identifiers
-[a-zA-Z]([a-zA-Z]|[0-9]|"_")* 	{ return token(ID, yytext()); }
+// identifier
+{Alpha}({Alpha}|{Digit}|"_")*	{ return token(ID, yytext()); }
 
-//literals
-[0-9]+	{ return token(INT_LITERAL); }
-\"[^\"]*\"	{ return token(STRING_LITERAL, yytext().substring(1, yytext().length() - 1)); }
+// literals
+{Digit}+					{ return token(INT_LITERAL); }
+\"[^\"]*\"			{ 
+	String entireText = yytext();
+	String stringLiteralText = entireText.substring(1, entireText.length()-1);
+	return token(STRING_LITERAL, stringLiteralText); 
+}
 
-{WhiteSpace}* { }
+// whitespace
+{WhiteSpace}*				{ } // lexer skips white spaces
+
+
 /* You don't need to change anything below this line. */
 .							{ throw new Error("unexpected character '" + yytext() + "'"); }
 <<EOF>>						{ return token(EOF); }
