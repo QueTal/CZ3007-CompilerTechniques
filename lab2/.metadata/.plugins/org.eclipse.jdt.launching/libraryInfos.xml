@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="C:\Program Files\IBM\SPSS\Statistics\25" version="1.8.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\bin\compressedrefs\jclSC180\vm.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\se-service.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\cuda4j.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\math.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\xmldsigfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\dataaccess.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\SPSS\Statistics\25\JRE" version="1.8.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin\compressedrefs\jclSC180\vm.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\se-service.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\cuda4j.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\math.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\xmldsigfw.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\dataaccess.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\SPSS\Statistics\25\JRE\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/usr/lib/jvm/java-7-openjdk-amd64" version="1.7.0_25">
+<bootpath>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar"/>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
